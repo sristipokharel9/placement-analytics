@@ -15,8 +15,10 @@
 ## Model
 Random Forest Classifier (300 trees, balanced class weights). Target: Placement_Status.
 Offer_Count and Salary were excluded to avoid data leakage.
-Test ROC-AUC about 0.72. At the default 0.5 cut-off, recall for Not Placed was only 0.02, so the
-decision threshold was lowered to [YOUR CHOICE] to catch more at-risk students (recall [X], precision [Y]).
+Test ROC-AUC is about 0.72, so predictive power is moderate. At the default 0.5 cut-off, recall for
+Not Placed was only 0.02, so the decision threshold was lowered to 0.8. At 0.8 the model catches
+about 65% of at-risk students (precision about 0.33), which suits an early-warning support list
+but means roughly two of three flagged students would have been placed anyway.
 Details: models/metrics.txt
 
 ## Action Plan

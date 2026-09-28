@@ -24,3 +24,13 @@ Department_IT           0.016
 Department_ECE          0.015
 Department_EEE          0.013
 Department_MECH         0.012
+
+Tuned threshold = 0.8
+              precision    recall  f1-score   support
+
+  Not Placed       0.33      0.65      0.44        52
+      Placed       0.91      0.73      0.81       248
+
+    accuracy                           0.71       300
+   macro avg       0.62      0.69      0.62       300
+weighted avg       0.81      0.71      0.74       300
