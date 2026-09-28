@@ -1,0 +1,26 @@
+              precision    recall  f1-score   support
+
+  Not Placed       0.25      0.02      0.04        52
+      Placed       0.83      0.99      0.90       248
+
+    accuracy                           0.82       300
+   macro avg       0.54      0.50      0.47       300
+weighted avg       0.73      0.82      0.75       300
+
+ROC-AUC (test): 0.718
+5-fold CV F1: 0.902
+5-fold CV AUC: 0.697
+
+Feature importance:
+Coding_Score            0.200
+Academic_Performance    0.199
+Project_Score           0.195
+Communication_Score     0.163
+Certifications          0.081
+Internships             0.068
+Department_CIVIL        0.019
+Department_CSE          0.019
+Department_IT           0.016
+Department_ECE          0.015
+Department_EEE          0.013
+Department_MECH         0.012
